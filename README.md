@@ -24,13 +24,16 @@ Example:
 \mishatodo{This section should go to the earlier chapter}
 
 \showCrossChecks % in your preamble
-\begin{align}
-\checkedby{misha}
-t &= \frac{1}{2\pi}\int \frac{\text{Im} t(s')}{s'-s} ds'\,, 
-\\ \checkedby{misha}
-t &= i\text{Im}t + i\text{Re}t
+\begin{align}\checkedby{ale, misha,robert}
+s&=(p_1+q)^2=(p_2+k_1+k_2)^2
+\\\checkedby{ale,robert}
+t&=(p_1-p_2)^2=(k_1+k_2-q)^2
+\\\checkedby{ale}
+s_{12}&=(k_1+k_2)^2=(p_1-p_2+q)^2
 \end{align}
 ```
+
+![produces](checkedby_example.png)
 
 ## Setup
 
